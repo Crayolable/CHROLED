@@ -1,0 +1,40 @@
+{
+   "description": "☆ Designed for safe use with OLED displays ☆",
+   "manifest_version": 3,
+   "name": "CHROLED - Borderless, Pure Black Theme",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 130, 130, 130 ],
+         "button_background": [ 0, 0, 0 ],
+         "frame": [ 0, 0, 0 ],
+         "frame_inactive": [ 0, 0, 0 ],
+         "frame_incognito": [ 0, 0, 0 ],
+         "ntp_background": [ 0, 0, 0 ],
+         "ntp_background_text": [ 130, 130, 130 ],
+         "ntp_link": [ 130, 130, 130 ],
+         "ntp_header": [ 0, 0, 0 ],
+         "omnibox_background": [ 0, 0, 0 ],
+         "omnibox_expanded_background": [0, 0, 0],
+         "omnibox_text": [ 180, 180, 180 ],
+         "tab_background_text": [ 130, 130, 130 ],
+         "tab_text": [ 220, 220, 220 ],
+         "toolbar": [ 0, 0, 0 ]
+      },
+      "images": {
+         "theme_toolbar": "images/theme_universal_blk.png",
+         "theme_frame": "images/theme_universal_blk.png",
+         "theme_frame_incognito": "images/theme_incognito_blk.png",
+         "theme_ntp_background": "images/theme_universal_blk.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top",
+         "ntp_background_repeat": "bottom",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "buttons": [0, 0, 0.4],
+         "frame_inactive": [0, 0, 0]
+      }
+   },
+   "version": "0.1.5"
+}
