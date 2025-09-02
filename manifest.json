@@ -4,37 +4,24 @@
    "name": "CHROLED - Borderless, Pure Black Theme",
    "theme": {
       "colors": {
-         "bookmark_text": [ 130, 130, 130 ],
-         "button_background": [ 0, 0, 0 ],
+         "toolbar": [ 0, 0, 0 ],
+         "bookmark_text": [ 100, 100, 100 ],
          "frame": [ 0, 0, 0 ],
          "frame_inactive": [ 0, 0, 0 ],
-         "frame_incognito": [ 0, 0, 0 ],
-         "ntp_background": [ 0, 0, 0 ],
-         "ntp_background_text": [ 130, 130, 130 ],
-         "ntp_link": [ 130, 130, 130 ],
-         "ntp_header": [ 0, 0, 0 ],
          "omnibox_background": [ 0, 0, 0 ],
-         "omnibox_expanded_background": [0, 0, 0],
-         "omnibox_text": [ 180, 180, 180 ],
-         "tab_background_text": [ 130, 130, 130 ],
-         "tab_text": [ 220, 220, 220 ],
-         "toolbar": [ 0, 0, 0 ]
+         "omnibox_text": [ 150, 150, 150 ],
+         "tab_text": [ 250, 250, 250 ],
+         "tab_background_text": [ 150, 150, 150 ]
       },
       "images": {
-         "theme_toolbar": "images/theme_universal_blk.png",
          "theme_frame": "images/theme_universal_blk.png",
-         "theme_frame_incognito": "images/theme_incognito_blk.png",
-         "theme_ntp_background": "images/theme_universal_blk.png"
-      },
-      "properties": {
-         "ntp_background_alignment": "top",
-         "ntp_background_repeat": "bottom",
-         "ntp_logo_alternate": 1
+         "theme_toolbar": "images/theme_universal_blk.png"
       },
       "tints": {
-         "buttons": [0, 0, 0.4],
-         "frame_inactive": [0, 0, 0]
+         "buttons": [ 0, 0, 0.4 ],
+         "frame_inactive": [ 0, 0, 0 ]
       }
    },
-   "version": "0.1.5"
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
 }
